@@ -1,0 +1,19 @@
+*{
+    background-color: rgb(252, 252, 252);
+}
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+#change,#title{
+    text-align:center;
+    color: rgb(99, 80, 41);
+}
+#submitButton{
+    height:1%;
+    padding:0.9%;
+}
