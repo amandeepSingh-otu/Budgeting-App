@@ -1,6 +1,5 @@
 import React,{useEffect} from "react";
 import {useSharedState} from "../Context/DataContext.jsx"
-import Data from "./Data.jsx";
 
 export default function Allocation() {
 

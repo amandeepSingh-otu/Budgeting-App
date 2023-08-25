@@ -1,17 +1,17 @@
 let Data = [
     {
-      id:1,
+      id:0,
       category: "Category 1",
       allocatedBudget: 1000,
       spendSoFar: 500,
     },
-    { id:2,
+    { id:1,
       category: "Category 2",
       allocatedBudget: 1500,
       spendSoFar: 750,
     },
     {
-      id:3,
+      id:2,
       category: "Category 3",
       allocatedBudget: 800,
       spendSoFar: 400,
@@ -19,6 +19,9 @@ let Data = [
     // Add more data objects as needed
   ];
   
+  export function updateData(updatedData){
+      Data=updatedData;
+     }
  
   
 

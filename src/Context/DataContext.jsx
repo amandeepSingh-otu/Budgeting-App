@@ -7,7 +7,7 @@ const StateContext = createContext();
 export const StateProvider = ({ children }) => {
   const [data, setData] = useState(Data);
   const [totalBudget, setTotalBudget] = useState(null);
-  const [currency, setCurrency] = useState(null);
+  const [currency, setCurrency] = useState("CA $");
   const [action, setAction] = useState(null);
   const [amount, setAmount] = useState(null);
 
