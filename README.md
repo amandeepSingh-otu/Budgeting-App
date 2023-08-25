@@ -1,5 +1,5 @@
 # Budgeting-App
-This is my first full stack and I'm still working on this project so feel free to give any suggestions
+This is my first full stack(currently working on the front end) and I'm still working on this project so feel free to give any suggestions
 Project Name: BudgetBuddy - Simplified Budget Management
 
 Description:
