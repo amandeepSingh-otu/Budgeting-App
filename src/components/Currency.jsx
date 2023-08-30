@@ -11,10 +11,11 @@ const Currency = () => {
   return (
         <div className='alert alert-secondary'>currency {
       <select name="Currency" id="Currency" onChange={handleChange}>
+        <option value="CA $ ">Canada(CAD)</option>
         <option value="£ ">Uk(£)</option>
         <option value="₹ ">India(₹)</option>
         <option value="€ ">Europe(€)</option>
-        <option value="CA $ ">Canada(CAD)</option>
+    
       </select>	
       }	
     </div>
